@@ -10,6 +10,7 @@ public class ZqFirstSpringbootProjectApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ZqFirstSpringbootProjectApplication.class, args);
+        System.out.printf(Thread.currentThread().getName());
     }
 
 ////thisgit

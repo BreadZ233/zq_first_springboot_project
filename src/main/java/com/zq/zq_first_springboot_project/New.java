@@ -3,6 +3,9 @@ package com.zq.zq_first_springboot_project;
 import lombok.Data;
 
 @Data
-public class New {
+public abstract class New {
     private String name;
+
+    void r(){}
+
 }
